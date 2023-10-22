@@ -101,6 +101,8 @@ main {
 
 main h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .info img {
@@ -127,3 +129,37 @@ main h2 {
 }
 
 /* info section */
+
+/* quote sectiopn */
+
+article {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote-container p {
+    padding: 0;
+    margin: 0;
+}
+
+/* quote sectiopn */
