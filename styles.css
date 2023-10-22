@@ -47,3 +47,46 @@ nav a {
 }
 
 /* nav bar */
+
+/* header */
+
+header{
+    display: flex;
+    padding: 100px;
+    background-color: #1F2937;
+    gap: 24px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+}
+
+.hero-text-container,
+.img-container {
+    flex: 1;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    color: #d3d3d3;
+    margin-top: 0;
+}
+
+.hero-text-container button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* header */
