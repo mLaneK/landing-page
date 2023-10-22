@@ -50,8 +50,15 @@ nav a {
 
 /* header */
 
-header{
+header {
+    background-color: #1F2937;
     display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    width: 900px;
     padding: 100px;
     background-color: #1F2937;
     gap: 24px;
@@ -67,7 +74,7 @@ header{
 
 .hero-text-container,
 .img-container {
-    flex: 1;
+    flex: 1 0 300px;
 }
 
 .hero-main-text {
