@@ -10,15 +10,23 @@ body {
 
 /* nav bar */
 
+.nav-list {
+    width: 900px;
+}
+
 nav {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    padding: 16px 100px;
+    /* padding: 16px 100px; */
     margin: 0;
+    /* width: 900px; */
 }
 
 nav ul {
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     list-style-type: none;
     gap: 24px;
     margin: 0;
@@ -60,7 +68,7 @@ header {
 
 .hero-container {
     display: flex;
-    width: 900px;
+    width: 1100px;
     padding: 100px;
     background-color: #1F2937;
     gap: 24px;
