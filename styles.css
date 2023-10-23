@@ -217,3 +217,16 @@ article {
 }
 
 /* cta section */
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #1F2937;
+    color: white;
+}
+
+/* footer */
